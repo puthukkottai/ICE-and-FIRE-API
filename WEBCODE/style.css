@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .book-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: calc(20% - 20px);
+    float: left;
+  }
+  
+  .book-card h2 {
+    margin-top: 0;
+  }
+  
+  .character-list {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .character-list li {
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .book-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
